@@ -1,0 +1,33 @@
+{
+  "name": "3-leged-oauth2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.18.1",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dataframe-js": "^1.4.4",
+    "express": "^4.17.1",
+    "gmailpush": "^1.0.5",
+    "googleapis": "^85.0.0",
+    "morgan": "^1.10.0",
+    "node-pandas": "^1.0.5",
+    "node-pandas-js": "^1.0.7",
+    "nodemailer": "^6.6.3",
+    "opn": "^6.0.0",
+    "query-string": "^7.0.1",
+    "request": "^2.88.2",
+    "server-destroy": "^1.0.1",
+    "url-parse": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

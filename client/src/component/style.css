@@ -1,0 +1,104 @@
+/* h1,
+p {
+  font-family: Lato;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.placeholder {
+  height: 250px;
+  width: 250px;
+  background-color: pink;
+  padding: 20px;
+}
+
+.fileuploaderdnd-container {
+  height: 250px;
+  width: 250px;
+
+  background-color: #87879231;
+  padding: 20px;
+}
+
+.input-img-file-file {
+  display: none;
+}
+
+.fileuploaderdnd-container-button {
+  position: relative;
+  top: 180px;
+  display: grid;
+  place-items: center;
+}
+
+.fileuploaderdnd-container-text {
+  font-size: 25px;
+  color: black;
+  opacity: 75%;
+  margin-top: 12px;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
+
+#csv {
+  height: 200px;
+  width: 700px;
+  background-color: #eef2f3;
+  margin: auto;
+  border: 2px dotted #c7c6c6;
+  padding: 10px;
+  margin-top: 30px;
+ 
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+  /* font-size: 1.25em; */
+  font-weight: 500;
+  color: #1e90ff;
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
